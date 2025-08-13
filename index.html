@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dihidang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="intro-section">
+        <div class="intro-content">
+            <h1>Project Dihidang</h1>
+            <p>Halaman ini adalah pengumpulan project, disusun rapi untuk menampilkan hasil, dedikasi dan kualitas</p>
+        </div>
+        <div class="scroll-down-button-container">
+            <button id="scroll-down-btn" class="scroll-down-btn">Lihat Project ↓</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="foto-section" class="content-section">
+            <div class="container content-wrapper">
+                <div class="image-column">
+                    <div class="slider-container">
+                        <img src="" alt="Foto Makanan" id="foto-slider-image" class="slider-image">
+                        <button id="foto-prev-btn" class="slider-btn prev-btn">&lt;</button>
+                        <button id="foto-next-btn" class="slider-btn next-btn">&gt;</button>
+                    </div>
+                    <div class="details-grid">
+                        <div class="column">
+                            <h3>Kelebihan</h3>
+                            <p id="foto-kelebihan"></p>
+                        </div>
+                        <div class="column">
+                            <h3>Kekurangan</h3>
+                            <p id="foto-kekurangan"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <h2 id="foto-judul"></h2>
+                    <p id="foto-deskripsi" class="description-text"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="desain-section" class="content-section">
+             <div class="container content-wrapper layout-reversed">
+                <div class="image-column">
+                    <div class="slider-container">
+                        <img src="" alt="Desain Makanan" id="desain-slider-image" class="slider-image">
+                        <button id="desain-prev-btn" class="slider-btn prev-btn">&lt;</button>
+                        <button id="desain-next-btn" class="slider-btn next-btn">&gt;</button>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <h2 class="section-subtitle">Bagaimana jika foto ini dimasukkan dalam desain?</h2>
+                    <h3 id="desain-judul"></h3>
+                    <p id="desain-deskripsi" class="description-text"></p>
+                </div>
+             </div>
+        </section>
+
+        <section id="video-section" class="content-section">
+            <div class="container content-wrapper">
+                <div class="image-column">
+                     <div class="video-container">
+                        <video id="project-video" controls muted playsinline loop>
+                            <source src="https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/mie.mp4" type="video/mp4">
+                            Browser Anda tidak mendukung tag video.
+                        </video>
+                    </div>
+                    <div class="details-grid">
+                        <div class="column">
+                            <h3>Kelebihan</h3>
+                            <p>Video detail dan menggugah selera.</p>
+                        </div>
+                        <div class="column">
+                            <h3>Kekurangan</h3>
+                            <p>File cukup besar sehingga loading sedikit lambat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <h2>Video Mie Ayam</h2>
+                    <p class="description-text">Mie ayam gurih dengan kuah kaldu ayam kampung.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="lightbox" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
