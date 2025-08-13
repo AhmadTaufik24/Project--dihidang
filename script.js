@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             deskripsi: "Foto hidangan menjadi visual utama dalam desain menu, memberikan gambaran yang jelas dan menggugah selera bagi pelanggan." 
         },
         { 
-            img: "https://raw.githubusercontent.com/AhmadTuhfaik24/project-dihidang/main/images/desain/desain2.png", 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/desain/desain2.png", 
             judul: "Desain Feed Instagram", 
             deskripsi: "Visual yang kuat sangat penting untuk media sosial. Foto berkualitas tinggi dapat meningkatkan engagement dan citra merek secara signifikan." 
         },
