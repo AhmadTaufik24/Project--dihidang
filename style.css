@@ -103,7 +103,7 @@ h3 {
     background-repeat: repeat;
     filter: blur(4px);
     transform: scale(1.1);
-    opacity: 0.5; /* Diperbaiki dari 75 ke 0.5 */
+    opacity: 0.5;
     z-index: 0;
 }
 .intro-section h1, .intro-section p {
@@ -125,9 +125,11 @@ h3 {
     padding: 10px;
     border-radius: 8px;
 }
+
+/* === Perbaikan Posisi Tombol Scroll Down === */
 .scroll-down-button-container {
     position: absolute;
-    bottom: 30px;
+    bottom: 5vh; /* Menggunakan vh agar relatif terhadap tinggi layar */
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -172,12 +174,12 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    min-width: 0; /* <<< FIX UTAMA ADA DI SINI */
+    min-width: 0;
 }
 
 .text-container {
     flex: 1;
-    min-width: 0; /* <<< DAN DI SINI */
+    min-width: 0;
     position: sticky;
     top: 30px;
 }
@@ -202,7 +204,7 @@ h3 {
 .details-grid p {
     line-height: 1.6;
     font-size: 0.95rem;
-    overflow-wrap: break-word; /* <<< FIX KEDUA ADA DI SINI */
+    overflow-wrap: break-word;
 }
 
 /* ======================= */
@@ -274,10 +276,11 @@ h3 {
     line-height: 1.4;
     margin-bottom: 1.5rem;
 }
+/* === Perbaikan Warna Teks Judul Desain === */
 .layout-reversed .text-container h3#desain-judul {
     font-size: 1.5rem;
     font-family: var(--font-serif);
-    color: var(--accent-red);
+    color: var(--text-dark); /* Diubah menjadi warna teks gelap */
     margin-top: 0;
 }
 
@@ -320,6 +323,7 @@ h3 {
 @media (max-width: 768px) {
     .intro-section {
         min-height: 100vh;
+        justify-content: center;
     }
     .content-wrapper,
     .content-wrapper.layout-reversed {
