@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { 
             img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
             judul: "NASI GORENG CHILI OIL 3", 
-            deskripsi: "posisi pengambilan setengah frame.", 
+            deskripsi: "posisi pengambilan top angle.", 
             kelebihan: "Foto ini memiliki warna makanan yang lebih hidup sehingga nasi goreng terlihat menggugah selera. Pencahayaan merata membuat semua elemen terlihat jelas, dengan tekstur yang tajam dan detail. Pantulan cahaya lebih lembut, latar belakang netral, serta adanya efek uap panas yang menambah kesan segar. Hasil ini diperoleh karena menggunakan standar retouch profesional, sehingga warna, pencahayaan, dan detail makanan terlihat lebih optimal dan menarik..", 
             kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng dan mash sangat cukup untuk produk nasi seperti ini." 
         }, // <<< KOMA YANG HILANG ADA DI SINI
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             deskripsi: "Foto hidangan menjadi visual utama dalam desain menu, memberikan gambaran yang jelas dan menggugah selera bagi pelanggan." 
         },
         { 
-            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/desain/desain2.png",
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/desain/desain4.png",
             judul: "Desain Feed Instagram", 
             deskripsi: "Visual yang kuat sangat penting untuk media sosial. Foto berkualitas tinggi dapat meningkatkan engagement dan citra merek secara signifikan." 
         },
