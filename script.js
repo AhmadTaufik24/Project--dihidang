@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
             img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
             judul: "NASI GORENG CHILI OIL 3", 
             deskripsi: "posisi pengambilan setengah frame.", 
-            kelebihan: "Penataan properti yang rapi dan menarik. Warna nasi goreng yang dihasilkan sangat menggugah selera, dengan pencahayaan yang menonjolkan kilap dari minyak dan tekstur nasi yang jelas. Retouch yang bersih dan natural.", 
-            kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng." 
+            kelebihan: "Foto ini memiliki warna makanan yang lebih hidup sehingga nasi goreng terlihat menggugah selera. Pencahayaan merata membuat semua elemen terlihat jelas, dengan tekstur yang tajam dan detail. Pantulan cahaya lebih lembut, latar belakang netral, serta adanya efek uap panas yang menambah kesan segar. Hasil ini diperoleh karena menggunakan standar retouch profesional, sehingga warna, pencahayaan, dan detail makanan terlihat lebih optimal dan menarik..", 
+            kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng dan mash sangat cukup untuk produk nasi seperti ini." 
         }, // <<< KOMA YANG HILANG ADA DI SINI
         { 
             img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
