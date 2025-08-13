@@ -7,6 +7,7 @@
     --putih: #FFFFFF;
     --accent-red: #A63A3A;
     --text-dark: #3D3D3D;
+    --coklat-tua: #5D4037; /* Warna Coklat Tua Baru */
     --font-serif: 'Playfair Display', serif;
     --font-sans: 'Lato', sans-serif;
     --border-radius: 10px;
@@ -208,8 +209,16 @@ h3 {
     text-align: center;
     font-style: italic;
     font-size: 0.9rem;
-    color: #888;
+    color: var(--text-dark);
+    background-color: #ECE7E1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
     margin-top: 1rem;
+    border: 1px solid #DCD6CF;
 }
 
 /* ======================= */
@@ -284,7 +293,7 @@ h3 {
 .layout-reversed .text-container h3#desain-judul {
     font-size: 1.5rem;
     font-family: var(--font-serif);
-    color: var(--text-dark); /* Warna dikembalikan ke teks gelap */
+    color: var(--coklat-tua); /* Diubah menjadi warna coklat tua */
     margin-top: 0;
 }
 
