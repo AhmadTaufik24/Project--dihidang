@@ -22,22 +22,22 @@ document.addEventListener('DOMContentLoaded', () => {
             deskripsi: "posisi pengambilan setengah frame.", 
             kelebihan: "Penataan properti yang rapi dan menarik. Warna nasi goreng yang dihasilkan sangat menggugah selera, dengan pencahayaan yang menonjolkan kilap dari minyak dan tekstur nasi yang jelas. Retouch yang bersih dan natural.", 
             kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng." 
-        }
- { 
+        }, // <<< KOMA YANG HILANG ADA DI SINI
+        { 
             img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
             judul: "ICE LEMON TEA 1", 
             deskripsi: "posisi pengambilan setengah frame.", 
             kelebihan: "Penataan properti yang rapi dan menarik. Warna nasi goreng yang dihasilkan sangat menggugah selera, dengan pencahayaan yang menonjolkan kilap dari minyak dan tekstur nasi yang jelas. Retouch yang bersih dan natural.", 
             kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng." 
-        }
- { 
+        }, // <<< KOMA YANG HILANG ADA DI SINI
+        { 
             img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
             judul: "ICE LEMON TEA 2", 
             deskripsi: "posisi pengambilan setengah frame.", 
             kelebihan: "Penataan properti yang rapi dan menarik. Warna nasi goreng yang dihasilkan sangat menggugah selera, dengan pencahayaan yang menonjolkan kilap dari minyak dan tekstur nasi yang jelas. Retouch yang bersih dan natural.", 
             kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng." 
-        }
- { 
+        }, // <<< KOMA YANG HILANG ADA DI SINI
+        { 
             img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
             judul: "ICE LEMON TEA 3", 
             deskripsi: "posisi pengambilan setengah frame.", 
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             deskripsi: "Foto hidangan menjadi visual utama dalam desain menu, memberikan gambaran yang jelas dan menggugah selera bagi pelanggan." 
         },
         { 
-            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/desain/desain2.png", 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/desain/desain2.png",
             judul: "Desain Feed Instagram", 
             deskripsi: "Visual yang kuat sangat penting untuk media sosial. Foto berkualitas tinggi dapat meningkatkan engagement dan citra merek secara signifikan." 
         },
