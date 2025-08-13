@@ -2,15 +2,45 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // DATA KONTEN
     const fotoData = [
-        { img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/003.jpg", judul: "NASI GORENG CHILI OIL 1", deskripsi: "posisi potrait", kelebihan: "Nasi goreng disajikan rapi dengan bentuk bulat dan bumbu merata, memiliki komposisi warna menarik, dilengkapi properti pendukung lengkap, uap panas yang terlihat, pencahayaan yang menonjolkan tekstur makanan serta retouch yang tepat menyempurnakan hasil fotonya.", kekurangan: "Cahaya di beberapa bagian terlihat sedikit agak flat karena keterbatasan lampu dan alat pencahayaan, sehingga kontras kurang maksimal untuk menonjolkan kilap dan tekstur nasi, namun masih sangat cukup untuk keperluan makanan seperti ini." },
-        { img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/001.jpg", judul: "NASI GORENG CHILI OIL 2", deskripsi: "posisi landscape.", kelebihan: "Komposisi foto rapi dengan penataan properti yang lengkap seperti sebelumnya, nasi goreng terlihat hangat dan bertekstur jelas dengan warna yang menggugah selera dan retouch yang tepat menyempurnakan hasil fotonya.", kekurangan: "Fokus foto sedikit agak terpecah karena pencahayaan agak datar sehingga kilap nasi kurang menonjol, namun masih sangat cukup untuk keperluan produk nasi seperti nasi goreng ini." },
-        { img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", judul: "NASI GORENG CHILI OIL 2", deskripsi: "posisi setengah.", kelebihan: "Kuah kaldunya kaya rasa.", kekurangan: "Kurang cocok untuk yang alergi gluten." }
+        { 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/003.jpg", 
+            judul: "NASI GORENG CHILI OIL 1", 
+            deskripsi: "posisi potrait", 
+            kelebihan: "Nasi goreng disajikan rapi dengan bentuk bulat dan bumbu merata, memiliki komposisi warna menarik, dilengkapi properti pendukung lengkap, uap panas yang terlihat, pencahayaan yang menonjolkan tekstur makanan serta retouch yang tepat menyempurnakan hasil fotonya.", 
+            kekurangan: "Cahaya di beberapa bagian terlihat sedikit agak flat karena keterbatasan lampu dan alat pencahayaan, sehingga kontras kurang maksimal untuk menonjolkan kilap dan tekstur nasi, namun masih sangat cukup untuk keperluan makanan seperti ini." 
+        },
+        { 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/001.jpg", 
+            judul: "NASI GORENG CHILI OIL 2", 
+            deskripsi: "posisi landscape.", 
+            kelebihan: "Komposisi foto rapi dengan penataan properti yang lengkap seperti sebelumnya, nasi goreng terlihat hangat dan bertekstur jelas dengan warna yang menggugah selera dan retouch yang tepat menyempurnakan hasil fotonya.", 
+            kekurangan: "Fokus foto sedikit agak terpecah karena pencahayaan agak datar sehingga kilap nasi kurang menonjol, namun masih sangat cukup untuk keperluan produk nasi seperti nasi goreng ini." 
+        },
+        { 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
+            judul: "NASI GORENG CHILI OIL 3", 
+            deskripsi: "posisi pengambilan setengah frame.", 
+            kelebihan: "Penataan properti yang rapi dan menarik. Warna nasi goreng yang dihasilkan sangat menggugah selera, dengan pencahayaan yang menonjolkan kilap dari minyak dan tekstur nasi yang jelas. Retouch yang bersih dan natural.", 
+            kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng." 
+        }
     ];
 
     const desainData = [
-        { img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/desain/desain1.png", judul: "Desain Story instagram", deskripsi: "Foto hidangan menjadi visual utama dalam desain menu, memberikan gambaran yang jelas dan menggugah selera bagi pelanggan." },
-        { img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/desain/desain2.png", judul: "Desain feed Instagram", deskripsi: "Visual yang kuat sangat penting untuk media sosial. Foto berkualitas tinggi dapat meningkatkan engagement dan citra merek secara signifikan." },
-        { img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/desain/desain3.png", judul: "Desain Menu", deskripsi: "Pada Desain Menu, foto produk berfungsi sebagai "wajah" yang menarik konsumen untuk membeli dan mencoba." }
+        { 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/desain/desain1.png", 
+            judul: "Desain Story Instagram", 
+            deskripsi: "Foto hidangan menjadi visual utama dalam desain menu, memberikan gambaran yang jelas dan menggugah selera bagi pelanggan." 
+        },
+        { 
+            img: "https://raw.githubusercontent.com/AhmadTuhfaik24/project-dihidang/main/images/desain/desain2.png", 
+            judul: "Desain Feed Instagram", 
+            deskripsi: "Visual yang kuat sangat penting untuk media sosial. Foto berkualitas tinggi dapat meningkatkan engagement dan citra merek secara signifikan." 
+        },
+        { 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/desain/desain3.png", 
+            judul: "Desain Menu", 
+            deskripsi: "Pada Desain Menu, foto produk berfungsi sebagai 'wajah' yang menarik konsumen untuk membeli dan mencoba." 
+        }
     ];
 
     // LOGIKA LIGHTBOX (POP-UP GAMBAR)
