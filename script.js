@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng dan mash sangat cukup untuk produk nasi seperti ini." 
         }, // <<< KOMA YANG HILANG ADA DI SINI
         { 
-            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/lemon1.jpg", 
             judul: "ICE LEMON TEA 1", 
             deskripsi: "posisi potrait.", 
             kelebihan: "minuman ini ditampilkan dengan tata letak rapi, irisan lemon segar, dan detail embun pada gelas yang memberi kesan dingin. Komposisinya sederhana sehingga fokus tertuju pada minuman, dengan pencahayaan yang cukup menampilkan warna teh dan es.", 
