@@ -89,7 +89,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 80vh; /* Tinggi minimal untuk desktop */
+    min-height: 80vh;
 }
 .intro-content {
     z-index: 1;
@@ -103,7 +103,7 @@ h3 {
     background-repeat: repeat;
     filter: blur(4px);
     transform: scale(1.1);
-    opacity: 75;
+    opacity: 0.5; /* Diperbaiki dari 75 ke 0.5 */
     z-index: 0;
 }
 .intro-section h1, .intro-section p {
@@ -125,8 +125,6 @@ h3 {
     padding: 10px;
     border-radius: 8px;
 }
-
-/* === Tombol Scroll Down Dikembalikan ke Versi Lingkaran === */
 .scroll-down-button-container {
     position: absolute;
     bottom: 30px;
@@ -135,24 +133,25 @@ h3 {
     z-index: 2;
 }
 .scroll-down-btn {
-    background-color: transparent;
-    border: 2px solid var(--accent-red);
-    color: var(--accent-red);
-    font-size: 2rem;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    background-color: var(--accent-red);
+    color: var(--putih);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
     cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--font-sans);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     animation: bounce 2s infinite;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 .scroll-down-btn:hover {
-    background-color: var(--accent-red);
-    color: var(--putih);
+    background-color: #8a2b2b;
+    transform: scale(1.05);
     animation-play-state: paused;
 }
 
@@ -173,11 +172,12 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    min-width: 0; /* <<< FIX UTAMA ADA DI SINI */
 }
 
 .text-container {
     flex: 1;
-    min-width: 0;
+    min-width: 0; /* <<< DAN DI SINI */
     position: sticky;
     top: 30px;
 }
@@ -202,7 +202,7 @@ h3 {
 .details-grid p {
     line-height: 1.6;
     font-size: 0.95rem;
-    word-break: break-all;
+    overflow-wrap: break-word; /* <<< FIX KEDUA ADA DI SINI */
 }
 
 /* ======================= */
