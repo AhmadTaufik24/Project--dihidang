@@ -23,6 +23,27 @@ document.addEventListener('DOMContentLoaded', () => {
             kelebihan: "Penataan properti yang rapi dan menarik. Warna nasi goreng yang dihasilkan sangat menggugah selera, dengan pencahayaan yang menonjolkan kilap dari minyak dan tekstur nasi yang jelas. Retouch yang bersih dan natural.", 
             kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng." 
         }
+ { 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
+            judul: "ICE LEMON TEA 1", 
+            deskripsi: "posisi pengambilan setengah frame.", 
+            kelebihan: "Penataan properti yang rapi dan menarik. Warna nasi goreng yang dihasilkan sangat menggugah selera, dengan pencahayaan yang menonjolkan kilap dari minyak dan tekstur nasi yang jelas. Retouch yang bersih dan natural.", 
+            kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng." 
+        }
+ { 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
+            judul: "ICE LEMON TEA 2", 
+            deskripsi: "posisi pengambilan setengah frame.", 
+            kelebihan: "Penataan properti yang rapi dan menarik. Warna nasi goreng yang dihasilkan sangat menggugah selera, dengan pencahayaan yang menonjolkan kilap dari minyak dan tekstur nasi yang jelas. Retouch yang bersih dan natural.", 
+            kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng." 
+        }
+ { 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/002.jpg", 
+            judul: "ICE LEMON TEA 3", 
+            deskripsi: "posisi pengambilan setengah frame.", 
+            kelebihan: "Penataan properti yang rapi dan menarik. Warna nasi goreng yang dihasilkan sangat menggugah selera, dengan pencahayaan yang menonjolkan kilap dari minyak dan tekstur nasi yang jelas. Retouch yang bersih dan natural.", 
+            kekurangan: "Beberapa bagian properti seperti bawang dan kerupuk sedikit over-exposure (terlalu terang) karena keterbatasan alat lighting, namun tidak mengganggu fokus utama pada produk nasi goreng." 
+        }
     ];
 
     const desainData = [
