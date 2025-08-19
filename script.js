@@ -31,14 +31,14 @@ document.addEventListener('DOMContentLoaded', () => {
             kekurangan: "Pencahayaan agak flat sehingga minuman kurang berkilau, latar belakang polos, dan bagian bawah gelas tampak gelap. Kekurangan ini terjadi karena kurangnya persiapan, mengingat sebelumnya mengira output yang diminta adalah makanan dengan minuman, bukan minuman saja, sehingga penataan dan perlengkapannya tidak dimaksimalkan." 
         }, // <<< KOMA YANG HILANG ADA DI SINI
         { 
-            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/003.jpg", 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/lemon2.jpg", 
             judul: "ICE LEMON TEA 2", 
             deskripsi: "posisi potrait.", 
             kelebihan: "minuman ini ditampilkan dengan tata letak rapi, irisan lemon segar, dan detail embun pada gelas yang memberi kesan dingin. Komposisinya sederhana sehingga fokus tertuju pada minuman, dengan pencahayaan yang cukup menampilkan warna teh dan es.", 
             kekurangan: "Pencahayaan agak flat sehingga minuman kurang berkilau, latar belakang polos, dan bagian bawah gelas tampak gelap. Kekurangan ini terjadi karena kurangnya persiapan, mengingat sebelumnya mengira output yang diminta adalah makanan dengan minuman, bukan minuman saja, sehingga penataan dan perlengkapannya tidak dimaksimalkan." 
         }, // <<< KOMA YANG HILANG ADA DI SINI
         { 
-            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/lemon1.jpg", 
+            img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/lemon3.jpg", 
             judul: "ICE LEMON TEA 3", 
             deskripsi: "posisi potrait.", 
             kelebihan: "minuman ini ditampilkan dengan tata letak rapi, irisan lemon segar, dan detail embun pada gelas yang memberi kesan dingin. Komposisinya sederhana sehingga fokus tertuju pada minuman, dengan pencahayaan yang cukup menampilkan warna teh dan es.", 
