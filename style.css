@@ -361,3 +361,12 @@ h3 {
         font-size: 1.8rem;
     }
 }
+
+
+.design-note {
+    font-size: 0.85rem;
+    color: #777;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0.5rem;
+}
