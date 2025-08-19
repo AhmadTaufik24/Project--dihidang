@@ -34,15 +34,15 @@ document.addEventListener('DOMContentLoaded', () => {
             img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/lemon--2.jpg", 
             judul: "ICE LEMON TEA 2", 
             deskripsi: "posisi potrait.", 
-            kelebihan: "minuman ini ditampilkan dengan tata letak rapi, irisan lemon segar, dan detail embun pada gelas yang memberi kesan dingin. Komposisinya sederhana sehingga fokus tertuju pada minuman, dengan pencahayaan yang cukup menampilkan warna teh dan es.", 
-            kekurangan: "Pencahayaan agak flat sehingga minuman kurang berkilau, latar belakang polos, dan bagian bawah gelas tampak gelap. Kekurangan ini terjadi karena kurangnya persiapan, mengingat sebelumnya mengira output yang diminta adalah makanan dengan minuman, bukan minuman saja, sehingga penataan dan perlengkapannya tidak dimaksimalkan." 
+            kelebihan: "minuman ini ditampilkan dengan tata letak berada disamping makanan, sehingga kesan nya memperlihatkan bahwa minuman tersebut cocok dengan makanan sesuai tema yang diminta, lalu detail embun pada gelas yang memberi kesan dingin juga lebih baik sehingga fokus tertuju pada minuman, dengan pencahayaan yang lebih baik daripada sebelumnya.", 
+            kekurangan: "komposisi nya agak kurang pas tetapi masih oke, Kekurangan ini terjadi karena kurangnya persiapan, mengingat sebelumnya mengira output yang diminta adalah makanan dengan minuman, bukan minuman saja, sehingga penataan dan perlengkapannya tidak dimaksimalkan." 
         }, // <<< KOMA YANG HILANG ADA DI SINI
         { 
             img: "https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/lemon--3.jpg", 
             judul: "ICE LEMON TEA 3", 
             deskripsi: "posisi potrait.", 
-            kelebihan: "minuman ini ditampilkan dengan tata letak rapi, irisan lemon segar, dan detail embun pada gelas yang memberi kesan dingin. Komposisinya sederhana sehingga fokus tertuju pada minuman, dengan pencahayaan yang cukup menampilkan warna teh dan es.", 
-            kekurangan: "Pencahayaan agak flat sehingga minuman kurang berkilau, latar belakang polos, dan bagian bawah gelas tampak gelap. Kekurangan ini terjadi karena kurangnya persiapan, mengingat sebelumnya mengira output yang diminta adalah makanan dengan minuman, bukan minuman saja, sehingga penataan dan perlengkapannya tidak dimaksimalkan." 
+            kelebihan: "minuman ini ditampilkan dengan kombinasi composite aset pendukung dengan standar retouch profesional sehingga terlihat tata letak rapi, irisan lemon segar, dan detail embun pada gelas yang memberi kesan dingin lebih bagus. Komposisinya sederhana sehingga fokus tertuju pada minuman, dengan pencahayaan yang lebih baik daripada sebelumnya/1", 
+            kekurangan: "masih sedikit terlalu simple karena latar belakang polos, Kekurangan ini terjadi karena kurangnya persiapan, mengingat sebelumnya mengira output yang diminta adalah makanan dengan minuman, bukan minuman saja, sehingga penataan dan perlengkapannya tidak dimaksimalkan." 
         }, // <<< KOMA YANG HILANG ADA DI SINI
     ];
 
